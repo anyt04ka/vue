@@ -1,0 +1,24 @@
+@import "flex-grid.css";
+
+body {
+    margin: 0 auto;     
+}
+
+.style {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px blue;
+    padding: 1rem;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.style a {
+    background-color: blue;
+    text-decoration: none;
+    padding: 2%;  
+    color: white;
+    border-radius: 5%;
+}
+

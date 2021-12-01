@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Animals</title>
+    <link rel="stylesheet" href="css/style.css">   
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+
+    <section id="app">
+            <div v-for="cat in animals.cats" class="col-3 style" >
+                <p><strong>Кот</strong></p>
+                <p>{{ cat.name }}</p>
+                <p>{{ cat.age }}</p>
+                <p>{{ cat.color }}</p>
+                <!--<p>{{ cat.img }}</p> -->
+                <img v-bind:src="animals.cats.img"> 
+                <p><a href="#">Подробнее</a></p>         
+            </div>       
+</section>
+
+<script src="js/hw_1.js"></script>
+</body>
+</html>
