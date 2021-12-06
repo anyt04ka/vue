@@ -1,0 +1,36 @@
+#app {
+    display: block;
+    width: 70%;     
+    text-align: center;
+}
+
+section p {
+    border-radius: 1px;  
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.position a {
+    display: inline;
+    width: 100%;
+    padding: 1rem;
+}
+
+.goods {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+}
+
+.zero {
+    background-color: #fd0404;
+}
+
+.min {
+    background-color: #fbff00;
+}
+
+.max {
+    background-color: #68d800;
+}
