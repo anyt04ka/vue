@@ -1,0 +1,55 @@
+#app {
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 398px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1900a8;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-items {
+    width: 100%;
+}
+
+.grid-items > img {
+    width: 70%;
+    object-fit: cover;
+}
+
+.grid-items > p {
+    display: none;    
+    text-align: center;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-items > img {
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.list-items > p {
+    line-height: 100px;
+    height: 100px;
+    width: 100%;
+    margin: 0px 10px;
+}
