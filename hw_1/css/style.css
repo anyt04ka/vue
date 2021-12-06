@@ -22,3 +22,7 @@ body {
     border-radius: 5%;
 }
 
+img {
+    width: 50%;
+    object-fit: cover;
+}
