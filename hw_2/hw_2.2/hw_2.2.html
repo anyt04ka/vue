@@ -9,8 +9,8 @@
 <body>
 
 <section id="app">
-    <a href="" v-on:click="gridView" class="button">Отобразить сеткой</a>
-    <a href="" v-on:click="listView" class="button">Отобразить списком</a>
+    <p v-on:click="gridView" class="button">Отобразить сеткой</a>
+    <p v-on:click="listView" class="button">Отобразить списком</a>
     <div :class="viewStyle">
         <div v-for="article in articles"
             :class="{'grid-items': viewStyle === 'grid',

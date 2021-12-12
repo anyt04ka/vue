@@ -11,9 +11,9 @@
 <section id="app">
     <p><strong>Сортировка товара</strong></p>
     <div class="position">
-    <a href="" v-on:click="sortTitle">По названию</a>
-    <a href="" v-on:click="sortPrice">По стоимости</a>
-    <a href="" v-on:click="sortCount">По количеству</a>
+    <p v-on:click="sortTitle">По названию</a>
+    <p v-on:click="sortPrice">По стоимости</a>
+    <p v-on:click="sortCount">По количеству</a>
     </div>
     <div v-for="good in sortedGoods" class="goods"
         :class="{zero: good.count === 0,
