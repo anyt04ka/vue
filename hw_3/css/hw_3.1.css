@@ -1,0 +1,22 @@
+#app {
+    width: 80%;
+}
+
+
+.list-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-items > img {
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.list-items > p {
+    line-height: 100px;
+    height: 100px;
+    width: 600px;
+    margin: 0px 10px;
+}

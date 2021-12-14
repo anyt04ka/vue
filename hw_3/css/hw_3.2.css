@@ -1,0 +1,14 @@
+#app {
+    width: 50%;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #90A4AE;
+    margin: 10px 0;
+    text-align: center;
+}
+
+

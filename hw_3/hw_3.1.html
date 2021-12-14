@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 3.1</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="css/hw_3.1.css">
+</head>
+<body>
+
+<section id="app">
+    <label>
+        Введите название статьи:
+        <input type="text" v-model="input">
+    </label>
+    <div v-for="article in allArticles"
+         class="list-items">
+        <img :src="article.image" alt="Картинка">
+        <p>{{ article.title.toUpperCase() }}</p>
+    </div>
+</section>
+
+<script src="js/hw_3.1.js"></script>
+</body>
+</html>
